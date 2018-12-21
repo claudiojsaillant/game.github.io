@@ -1,7 +1,5 @@
- 
-let userScore = 0;
-let compScore = 0;
-let dope = 0;
+let userScore = 1;
+let compScore = 1;
 let desition;
 let userScore_span = document.getElementById("userscore");
 let compScore_span = document.getElementById("compscore");
@@ -44,7 +42,6 @@ function compChoice() {
 function game(desition){
 
     desition = desition + compChoice();
-    console.log(desition);
     switch(desition) { 
       case 'pp':
       result.innerHTML = "Its a draw!";
