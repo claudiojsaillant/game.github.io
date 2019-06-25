@@ -1,49 +1,51 @@
 <!doctype html>
 
 <html lang="en">
-    
-    <link rel="stylesheet" href="stylesheet.css">
-    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheet.css">
+
+<head>
   <meta charset="utf-8">
   <title>Rock Paper Scissors</title>
-    </head>
+</head>
 
-  <body>
-      
-    <header>
-      <h1>Rock Paper Scissors</h1>
-    </header>
+<body>
 
-    <div class="score-board"> 
-      <div id="userlabel" class="badge">user</div>
-      <div id="complabel" class="badge">comp</div>
-      <span id="userscore">0</span>:<span id="compscore">0</span>
-    </div>  
+  <header>
+    <h1>Rock Paper Scissors</h1>
+  </header>
 
-    <div class="result"> 
-      <p id="finalresult">Welcome to Rock Paper Scissors, choose you weapon!</p>
+  <div class="score-board">
+    <div id="userlabel" class="badge">user</div>
+    <div id="complabel" class="badge">comp</div>
+    <span id="userscore">0</span>:<span id="compscore">0</span>
+  </div>
+
+  <div class="result">
+    <p id="finalresult">Welcome to Rock Paper Scissors, choose you weapon!</p>
+  </div>
+
+  <div class="choises">
+    <div class="choice" id="rock">
+      <img src="pics/rock.png" width="115" height="115" alt="">
     </div>
 
-    <div class="choises">
-        <div class="choice" id="rock">
-          <img src="pics/rock.png" width="115" height="115" alt="">
-        </div>
-
-        <div class="choice" id="paper">
-          <img src="pics/paper.png" width="115" height="115" alt="">
-        </div>
-
-        <div class="choice" id="scissors">
-          <img src="pics/scissors.png" width="115" height="115" alt="">
-        </div>
+    <div class="choice" id="paper">
+      <img src="pics/paper.png" width="115" height="115" alt="">
     </div>
-    
-    <p id="actionmsg">Make your move!</p>
 
-      
+    <div class="choice" id="scissors">
+      <img src="pics/scissors.png" width="115" height="115" alt="">
+    </div>
+  </div>
 
-     
+  <p id="actionmsg">Make your move!</p>
 
-    <script src="scripts.js" charset="utf-8"></script>
-  </body>
+
+
+
+
+  <script src="scripts.js" charset="utf-8"></script>
+</body>
+
 </html>
